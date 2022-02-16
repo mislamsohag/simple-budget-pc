@@ -51,6 +51,7 @@ document.getElementById('apply-btn').addEventListener('click', function () {
         failMassage.style.display = "none";
 
         document.getElementById('promo-input').value = '';
+        this.disabled = true;
     }
     else {
         successMassage.style.display = "none";
